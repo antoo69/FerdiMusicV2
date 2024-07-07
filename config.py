@@ -32,7 +32,7 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/Fsyrl99/ferdimusik",
+    "https://github.com/Fsyrl99/AnonXMusic",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv(
@@ -81,7 +81,7 @@ START_IMG_URL = getenv(
     "START_IMG_URL", "https://telegra.ph//file/de299084a7d428f6c630c.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://telegra.ph//file/2450712b561cd554247da.jpg"
+    "PING_IMG_URL", "https://telegra.ph//file/529b0b4833b79cb9df610.jpg"
 )
 PLAYLIST_IMG_URL = "https://telegra.ph//file/e889a70f49fcb92cd2250.jpg"
 STATS_IMG_URL = "https://telegra.ph//file/feb8f95994406a2ad01d8.jpg"
