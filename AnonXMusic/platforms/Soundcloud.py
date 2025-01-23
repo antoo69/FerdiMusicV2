@@ -9,7 +9,7 @@ class SoundAPI:
     def __init__(self):
         self.opts = {
             "cookies": "cookies.txt",
-            "verbose" : True
+            "verbose" : True,
             "outtmpl": "downloads/%(id)s.%(ext)s",
             "format": "best",
             "retries": 3,
