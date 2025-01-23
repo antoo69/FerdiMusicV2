@@ -15,7 +15,7 @@ from pytgcalls.exceptions import (
 from pytgcalls.types import Update
 from pytgcalls.types.input_stream import AudioPiped, AudioVideoPiped
 from pytgcalls.types.input_stream.quality import HighQualityAudio, MediumQualityVideo
-from pytgcalls.types.stream import StreamAudioEnded
+from pytgcalls.stream import StreamAudioEnded  # Perhatikan impor ini
 
 import config
 from AnonXMusic import LOGGER, YouTube, app
@@ -38,6 +38,7 @@ from AnonXMusic.utils.inline.play import stream_markup
 from AnonXMusic.utils.stream.autoclear import auto_clean
 from AnonXMusic.utils.thumbnails import get_thumb
 from strings import get_string
+
 
 autoend = {}
 counter = {}
